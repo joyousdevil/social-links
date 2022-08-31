@@ -1,8 +1,8 @@
-<!DOCTYPE html> 
-<html> 
-  <head> 
-    <meta charset="utf-8" /> 
-    <title>Vincent Camacho - Links</title> 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Vincent Camacho - Links</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" /> 
     <link rel="stylesheet" href="./index.css" /> 
     <link rel="preload" href="./images/bg01.jpg" as="image" /> 
@@ -20,7 +20,8 @@
         scale: 1.00, 
         scaleMobile: 1.00, 
         backgroundAlpha: 0.0, 
-        color2: 0xfff000, 
+        color1: 0xb461d9,
+        color2: 0xcaa783, 
         wingSpan: 40.00, 
         separation: 100.00, 
         alignment: 77.00, 
@@ -33,15 +34,19 @@
         main.style.filter = 'blur(0px)' 
       }, 1000) 
     }) 
-    </script> 
-  </head> 
-  <body> 
+  </script>
+  </head>
+  <body>
+    <video autoplay muted loop playsinline>
+      <source src="./images/bg.mp4" type="video/mp4; codecs=hvc1">
+      <source src="./images/bg.webm" type="video/webm; codecs=vp9">
+    </video>
     <div id="vanta"></div> 
     <main class="animated"> 
-      <header> 
-        <img src="./images/profilepicsmall.jpg" /> 
-        <h1>Vincent Camacho</h1> 
-      </header> 
+      <header>
+        <img src="./images/profilepicsmall.jpg" />
+        <h1>Vincent Camacho</h1>
+      </header>
       <ul>
         <li>
           <a href="https://nolansbabyshower.vercel.app">
@@ -74,6 +79,6 @@
           </a>
         </li>
       </ul>
-    </main> 
-  </body> 
+    </main>
+  </body>
 </html>
