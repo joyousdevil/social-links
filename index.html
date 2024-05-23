@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<!-- index-video-vanta -->
+
 <html>
 
 <head>
@@ -21,7 +23,8 @@
         scale: 1.00,
         scaleMobile: 1.00,
         backgroundAlpha: 0.0,
-        color2: 0xfff000,
+        color1: 0xb461d9,
+        color2: 0xcaa783,
         wingSpan: 40.00,
         separation: 100.00,
         alignment: 77.00,
@@ -33,11 +36,15 @@
         main.style.opacity = 1
         main.style.filter = 'blur(0px)'
       }, 1000)
-    })
+    }) 
   </script>
 </head>
 
 <body>
+  <video autoplay muted loop playsinline>
+    <source src="./images/bg.mp4" type="video/mp4; codecs=hvc1">
+    <source src="./images/bg.webm" type="video/webm; codecs=vp9">
+  </video>
   <div id="vanta"></div>
   <main class="animated">
     <header>
@@ -46,9 +53,9 @@
     </header>
     <ul>
       <li>
-        <a href="https://jnvphoto.myportfolio.com/" target="_blank">
-          <img src="./images/lightroom.svg" alt="Portfolio" width="20" />
-          Photography 📸
+        <a href="https://nolansbabyshower.vercel.app" target="_blank">
+          <img src="./images/nolan.svg" alt="Nolan" width="20" />
+          Nolan Cole 🌌
         </a>
       </li>
       <li>
@@ -58,9 +65,21 @@
         </a>
       </li>
       <li>
+        <a href="https://unsplash.com/@joyousdevil" target="_blank">
+          <img src="./images/unsplash.svg" alt="Unsplash" width="20" />
+          Unsplash 🌊
+        </a>
+      </li>
+      <li>
         <a href="https://github.com/joyousdevil" target="_blank">
           <img src="./images/github.svg" alt="Github" width="20" />
           Github 💻
+        </a>
+      </li>
+      <li>
+        <a href="https://jnvphoto.myportfolio.com/" target="_blank">
+          <img src="./images/lightroom.svg" alt="Portfolio" width="20" />
+          Photography 📸
         </a>
       </li>
     </ul>
